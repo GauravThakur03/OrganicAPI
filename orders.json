@@ -1,0 +1,35 @@
+{
+	"orders": [
+		{
+			"orderID": "12DSR23cdER",
+			"orderDate": "12-june-2020",
+			"status": "Pending",
+			"items": [
+				{	"catID": 10,
+					"prodID": 1,
+					"prodQuant": 2,
+					"prodName": "Banana",
+					"prodPrice": 100,
+					"prodDesc":"",
+					"prodPic":""
+				},
+				{
+					"catID": 11,
+					"prodID": 2,
+					"prodQuant": 5,
+					"prodName": "chips",
+					"prodPrice": 10,
+					"prodDesc":"",
+					"prodPic":""
+				}
+			],
+			"amount": 250,
+			"address1": "B2-101, Treasure Township",
+			"address2": "bijalpur",
+			"landmark": "Rajendra Nagar",
+			"city": "Kukshi",
+			"state": "MP",
+			"pinCode": 454331 
+		}
+	]
+}

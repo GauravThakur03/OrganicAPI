@@ -1,0 +1,12 @@
+{
+	'tracking': [
+		{
+			'trackID': 'XUY123',
+			'orderID': '12DSR23cdER',
+			'status': 'Prepare to Dispatch',
+			'mobile': 95678788878,
+			'email': 'test@gmail.com',
+			'lastUpdated': '20-June-2020'
+		}
+	]
+}

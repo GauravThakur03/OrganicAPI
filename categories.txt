@@ -1,0 +1,192 @@
+{
+    "category": [
+        {
+            "catID": 10,
+            "catName": "Fruits",
+            "prodCount": 1000,
+            "catIcon": null,
+            "catImage": null,
+            "products": [
+                {
+                    "prodID": 1,
+                    "prodName": "Banganapalli",
+                    "prodPic": "img/BNG1.jpg",
+                    "prodPrice": 90.0,
+                    "prodDesc": "Organic",
+                    "prodAvailable": "yes",
+                    "prodQuant": 10,
+                    "prodUnit": "kg",
+                    "varID": "VA1",
+                    "varName": "Banganapalli",
+                    "prodDeals": "no",
+                    "prodBestsellers": "no"
+                },
+                {
+                    "prodID": 6,
+                    "prodName": "Chinna Rasalu",
+                    "prodPic": "img/CHRSAM1.jpg",
+                    "prodPrice": 130.0,
+                    "prodDesc": "Organic",
+                    "prodAvailable": "yes",
+                    "prodQuant": 130,
+                    "prodUnit": "kg",
+                    "varID": "VA2",
+                    "varName": "Chinna Rasalu",
+                    "prodDeals": "no",
+                    "prodBestsellers": "no"
+                },
+                {
+                    "prodID": 7,
+                    "prodName": "Pedda Rasalu",
+                    "prodPic": "img/PRSAM1.jpg",
+                    "prodPrice": 150.0,
+                    "prodDesc": "Organic",
+                    "prodAvailable": "yes",
+                    "prodQuant": 150,
+                    "prodUnit": "kg",
+                    "varID": "VA2",
+                    "varName": "Pedda Rasalu",
+                    "prodDeals": "no",
+                    "prodBestsellers": "no"
+                }
+            ]
+        },
+        {
+            "catID": 11,
+            "catName": "Pickles",
+            "prodCount": 500,
+            "catIcon": null,
+            "catImage": null,
+            "products": [
+                {
+                    "prodID": 3,
+                    "prodName": "Mango Pickle",
+                    "prodPic": "{img/test3.png}",
+                    "prodPrice": 120.0,
+                    "prodDesc": "made with sesame oil",
+                    "prodAvailable": "yes",
+                    "prodQuant": 125,
+                    "prodUnit": "kg",
+                    "varID": "VA3",
+                    "varName": "Pickle",
+                    "prodDeals": "no",
+                    "prodBestsellers": "no"
+                }
+            ]
+        },
+        {
+            "catID": 12,
+            "catName": "Vegetables",
+            "prodCount": 400,
+            "catIcon": null,
+            "catImage": null,
+            "products": [
+                {
+                    "prodID": 4,
+                    "prodName": "Tomatos",
+                    "prodPic": "{img/test4.png}",
+                    "prodPrice": 2.0,
+                    "prodDesc": "farm fresh",
+                    "prodAvailable": "yes",
+                    "prodQuant": 5,
+                    "prodUnit": "kg",
+                    "varID": "VA4",
+                    "varName": "Veggies",
+                    "prodDeals": "no",
+                    "prodBestsellers": "no"
+                }
+            ]
+        },
+        {
+            "catID": 13,
+            "catName": "Chicken",
+            "prodCount": 1000,
+            "catIcon": null,
+            "catImage": null,
+            "products": [
+                {
+                    "prodID": 8,
+                    "prodName": "Chicken - Whole, With Skin",
+                    "prodPic": "img/chicken.jpg",
+                    "prodPrice": 190.0,
+                    "prodDesc": "free of antibiotic residue",
+                    "prodAvailable": "yes",
+                    "prodQuant": 10,
+                    "prodUnit": "kg",
+                    "varID": "VA1 ",
+                    "varName": "Chicken - Whole, With Skin",
+                    "prodDeals": "no",
+                    "prodBestsellers": "no"
+                },
+                {
+                    "prodID": 9,
+                    "prodName": "Chicken Curry Cut (Small Pcs)",
+                    "prodPic": "img/Dressed.jpg",
+                    "prodPrice": 240.0,
+                    "prodDesc": "free of antibiotic residue",
+                    "prodAvailable": "yes",
+                    "prodQuant": 10,
+                    "prodUnit": "kg",
+                    "varID": "VA1 ",
+                    "varName": "Chicken Curry Cut (Small Pcs)",
+                    "prodDeals": "no",
+                    "prodBestsellers": "no"
+                }
+            ]
+        },
+        {
+            "catID": 15,
+            "catName": "Mutton",
+            "prodCount": 1000,
+            "catIcon": null,
+            "catImage": null,
+            "products": [
+                {
+                    "prodID": 10,
+                    "prodName": "Goat Curry Cut (Small)",
+                    "prodPic": "img/Mutton.jpg",
+                    "prodPrice": 590.0,
+                    "prodDesc": "Rich-Flavourful",
+                    "prodAvailable": "yes",
+                    "prodQuant": 10,
+                    "prodUnit": "kg",
+                    "varID": "VA1 ",
+                    "varName": "Goat Curry Cut Small",
+                    "prodDeals": "no",
+                    "prodBestsellers": "no"
+                }
+            ]
+        },
+        {
+            "catID": 16,
+            "catName": "Fish",
+            "prodCount": 1000,
+            "catIcon": null,
+            "catImage": null,
+            "products": [
+                {
+                    "prodID": 11,
+                    "prodName": "Catla (Botchee) Large",
+                    "prodPic": "img/Fish.jpg",
+                    "prodPrice": 190.0,
+                    "prodDesc": "Caught & cut the same day",
+                    "prodAvailable": "yes",
+                    "prodQuant": 10,
+                    "prodUnit": "kg",
+                    "varID": "VA1 ",
+                    "varName": "Catla (Botchee) Large",
+                    "prodDeals": "no",
+                    "prodBestsellers": "no"
+                }
+            ]
+        },
+        {
+            "catID": 17,
+            "catName": "Prawns",
+            "prodCount": 1000,
+            "catIcon": null,
+            "catImage": null,
+            "products": []
+        }
+    ]
+}

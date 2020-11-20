@@ -1,0 +1,43 @@
+{
+	'products': [
+		{
+			'catId': 10,
+			'catName': 'Fruit',
+			'prodId': 1,
+			'prodName': 'Banana',
+			'prodDesc': '',
+			'prodQuant': 200,
+			'prodPrice': 1200
+			'prodPic': 'banan.jpeg',
+			'prodUnit': 'dozens',
+			'varID': 'VA1',
+			'variName': 'Banginapally'
+		},
+		{
+			'catId': 11,
+			'catName': 'Pickle',
+			'prodId': 2,
+			'prodName': 'Cucumber Pickle',
+			'prodDesc': '',
+			'prodQuant': 100,
+			'prodPrice': 200
+			'prodPic': 'cucumberPickle.jpeg',
+			'prodUnit': 'kg',
+			'varID': 'VA2',
+			'variName': 'Magai'
+		},
+		{
+			'catId': 13,
+			'catName': 'Snacks',
+			'prodId': 3,
+			'prodName': 'Chips',
+			'prodDesc': '',
+			'prodQuant': 20,
+			'prodPrice': 10
+			'prodPic': 'chips.jpeg',
+			'prodUnit': 'gm',
+			'varID': 'VA3',
+			'variName': 'Chinna-Rasalu'
+		}
+	]
+}
