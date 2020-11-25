@@ -1,0 +1,22 @@
+{
+    "deliveryArea": [
+      {
+        "city": "Hyderabad",
+        "area": [
+          "Taranaka",
+          "Nacharam",
+          "Hitech-city",
+          "Madhapur"
+        ]
+      },
+      {
+        "city": "Vijayawada",
+        "area": [
+          "Governorpet",
+          "Suryaraopet",
+          "LIC colony",
+          "Poranki"
+        ]
+      }
+    ]
+  }

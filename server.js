@@ -56,6 +56,12 @@ app.post('/ekart/processOrder', function(request, res){
     res.end(JSON.stringify({status: 200 , message: 'Order created'}))
 });
 
+app.get('/ekart/areas', function (req, res) {
+    fs.readFile( __dirname + "/area.json", 'utf8', function (err, data) {
+        res.end( data );
+    });
+})
+
 var server = app.listen(9000, function () {
    var host = server.address().address;
    var port = server.address().port;
