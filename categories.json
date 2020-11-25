@@ -94,7 +94,7 @@
           "catName": "Vegetables",
           "prodID": 4,
           "prodName": "Tomatos",
-          "prodPic": "img/test4.png",
+          "prodPic": "img/tomatos.png",
           "prodPrice": 2,
           "prodDesc": "farm fresh",
           "prodAvailable": "yes",
@@ -103,7 +103,7 @@
           "varID": "VA4",
           "varName": "Veggies",
           "prodDeals": true,
-          "prodBestsellers": false
+          "prodBestsellers": true
         }
       ]
     },
@@ -119,7 +119,7 @@
           "catName": "Chicken",
           "prodID": 8,
           "prodName": "Chicken - Whole, With Skin",
-          "prodPic": "img/chicken.jpg",
+          "prodPic": "img/chicken.png",
           "prodPrice": 190,
           "prodDesc": "free of antibiotic residue",
           "prodAvailable": "yes",
@@ -127,7 +127,7 @@
           "prodUnit": "kg",
           "varID": "VA1 ",
           "varName": "Chicken - Whole, With Skin",
-          "prodDeals": false,
+          "prodDeals": true,
           "prodBestsellers": true
         },
         {
@@ -143,7 +143,7 @@
           "prodUnit": "kg",
           "varID": "VA1 ",
           "varName": "Chicken Curry Cut (Small Pcs)",
-          "prodDeals": true,
+          "prodDeals": false,
           "prodBestsellers": false
         }
       ]
@@ -160,7 +160,7 @@
           "catName": "Mutton",
           "prodID": 10,
           "prodName": "Goat Curry Cut (Small)",
-          "prodPic": "img/Mutton.jpg",
+          "prodPic": "img/goatcurrycut.png",
           "prodPrice": 590,
           "prodDesc": "Rich-Flavourful",
           "prodAvailable": "yes",
