@@ -1,22 +1,50 @@
 {
-    "deliveryArea": [
+  "deliveryArea": [
       {
-        "city": "Hyderabad",
-        "area": [
-          "Taranaka",
-          "Nacharam",
-          "Hitech-city",
-          "Madhapur"
-        ]
+          "city": "Hyderabad",
+          "area": [
+              {
+                  "area": "Taranaka"
+              },
+              {
+                  "area": "Nacharam"
+              },
+              {
+                  "area": "Madhapur"
+              },
+              {
+                  "area": "Hi-Techcity"
+              },
+              {
+                  "area": "LB Nagar"
+              },
+              {
+                  "area": "ECIL"
+              },
+              {
+                  "area": "KPHB"
+              }
+          ]
       },
       {
-        "city": "Vijayawada",
-        "area": [
-          "Governorpet",
-          "Suryaraopet",
-          "LIC colony",
-          "Poranki"
-        ]
+          "city": "Vijayawada",
+          "area": [
+              {
+                  "area": "Governorpet"
+              },
+              {
+                  "area": "Suryaraopet"
+              },
+              {
+                  "area": "LIC colony"
+              },
+              {
+                  "area": "GandhiNagar"
+              },
+              {
+                  "area": "Benzcircle"
+              }
+          ]
       }
-    ]
-  }
+  ]
+}
