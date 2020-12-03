@@ -1,6 +1,8 @@
 var express = require("express");
 var app = express();
 var fs = require("fs");
+var bodyParser = require("body-parser");
+//var router = express.Router();
 
 // Add headers
 app.use(function (req, res, next) {
@@ -27,6 +29,48 @@ app.use(function (req, res, next) {
 });
 
 app.use(express.json());
+
+//Here we are configuring express to use body-parser as middle-ware.
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
+
+app.post("/ekart/userRegister", (req, res) => {
+  //code to perform particular action.
+  //To access POST variable use req.body()methods.
+  fs.readFile(__dirname + "/users.json", "utf8", function (err, data) {
+    let _data = JSON.parse(data);
+    let param = req.body.userName;
+    if (_data[param]) {
+      res.end(JSON.stringify({
+        message: "This mobile number is already registered with us.",
+      }));
+    } else {
+      res.end(
+        JSON.stringify({
+          message: `Success: Mobile number ${param} registered`,
+        })
+      );
+    }
+  });
+});
+
+app.post("/ekart/getLogin", (req, res) => {
+  //code to perform particular action.
+  //To access POST variable use req.body()methods.
+  fs.readFile(__dirname + "/users.json", "utf8", function (err, data) {
+    let _data = JSON.parse(data);
+    let param = req.body.userName;
+    if (_data[param]) {
+      res.end(JSON.stringify(_data[param]));
+    } else {
+      res.end(
+        JSON.stringify({
+          message: "This mobile number is not registered with us.",
+        })
+      );
+    }
+  });
+});
 
 app.get("/ekart/categories", function (req, res) {
   fs.readFile(__dirname + "/categories.json", "utf8", function (err, data) {
