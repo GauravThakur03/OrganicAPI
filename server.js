@@ -85,6 +85,14 @@ app.get("/ekart/orders/:phone", function (req, res) {
     res.end(data);
   });
 });
+
+app.get("/ekart/getstatus/:phone", function (req, res) {
+  fs.readFile(__dirname + "/orders.json", "utf8", function (err, data) {
+    //res.end( data );
+    res.end(data);
+  });
+})
+
 app.get("/ekart/users/:id", function (req, res) {
   fs.readFile(__dirname + "/users.json", "utf8", function (err, data) {
     let _data = JSON.parse(data);
