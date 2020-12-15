@@ -87,7 +87,7 @@ app.get("/ekart/orders/:phone", function (req, res) {
 });
 
 app.get("/ekart/getstatus/:phone", function (req, res) {
-  fs.readFile(__dirname + "/orders.json", "utf8", function (err, data) {
+  fs.readFile(__dirname + "/getstatus.json", "utf8", function (err, data) {
     //res.end( data );
     res.end(data);
   });
